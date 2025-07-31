@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const server = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://halleyx-backend.onrender.com",
     headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*"

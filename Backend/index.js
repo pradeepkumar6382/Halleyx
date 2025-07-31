@@ -14,3 +14,7 @@ app.listen(8000,()=>{
 app.use('/Uploads', express.static(path.join(__dirname, 'Uploads')));
 app.use('/', routes);
 
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://halleyx.vercel.app'],
+  credentials: true
+}));
