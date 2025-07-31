@@ -39,7 +39,7 @@ const CustomerLogin = ({setrole}) => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-lg">
         <h1 className="text-2xl font-semibold text-center mb-6 text-gray-800">
-          Customer Login
+          Login
         </h1>
         <div className="space-y-4">
           <div>
